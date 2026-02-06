@@ -1,0 +1,158 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #f4f6f8;
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+.cv {
+  background: #fff;
+  margin: 40px auto;
+  padding: 30px;
+  border-radius: 16px;
+  max-width: 1000px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+}
+
+/* ================= HEADER ================= */
+.header {
+  background: #5a7392;
+  color: white;
+  border-radius: 12px;
+  padding: 20px;
+}
+
+.profile-image {
+  width: 180px;
+  height: 240px;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+.header a {
+  color: white;
+  text-decoration: none;
+}
+
+.contact-row {
+  display: flex;
+  align-items: center;
+  margin: 6px 0;
+}
+
+.contact-icon {
+  width: 22px;
+  margin-right: 10px;
+}
+
+/* ================= SECTIONS ================= */
+.cv-section {
+  margin-top: 30px;
+}
+
+.section-title {
+  border-bottom: 3px solid #5a7392;
+  padding-bottom: 6px;
+  margin-bottom: 16px;
+  font-size: 1.4rem;
+}
+
+/* ================= CARDS ================= */
+.card {
+  background: #ffffff;
+  border-radius: 10px;
+  padding: 16px;
+  margin-bottom: 16px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.06);
+}
+
+.date {
+  font-size: 0.85rem;
+  color: #666;
+}
+
+/* ================= LISTS ================= */
+ul {
+  padding-left: 20px;
+}
+
+.experience-list li {
+  margin-bottom: 8px;
+}
+
+/* ================= SKILLS GRID ================= */
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 16px;
+}
+
+/* ================= UTIL ================= */
+.justify {
+  text-align: justify;
+}
+
+.muted {
+  opacity: 0.9;
+}
+.cv-section {
+  margin-top: 30px;
+}
+
+.section-title {
+  font-size: 1.5em;
+  color: var(--mainColor);
+  border-bottom: 3px solid var(--mainColor);
+  padding-bottom: 5px;
+  margin-bottom: 15px;
+}
+
+.education-card,
+.certificate-card {
+  background-color: white;
+  border-radius: 10px;
+  padding: 15px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+.education-card .date,
+.certificate-card .date {
+  display: block;
+  margin-top: 5px;
+  color: gray;
+  font-size: 0.9em;
+}
+/* Professional Experience Section Card */
+.cv-section.experience-section {
+  border: 1.5px solid #dddddd; /* حاشیه کمرنگ طوسی */
+  border-radius: 10px;
+  background-color: #f9f9f9; /* پس‌زمینه روشن */
+  padding: 20px;
+  margin-bottom: 25px; /* فاصله از سایر بخش‌ها */
+}
+
+.cv-section.experience-section h2.section-title {
+  margin-bottom: 15px;
+  font-size: 1.3em;
+  color: #002b34;
+}
+
+/* فاصله بین آیتم‌های تجربه کاری */
+.experience-list li {
+  margin-top: 15px;
+  font-weight: bold;
+}
+
+.experience-list p {
+  margin: 5px 0 15px 0;
+  font-weight: normal;
+  line-height: 1.5;
+  color: #333333;
+}
